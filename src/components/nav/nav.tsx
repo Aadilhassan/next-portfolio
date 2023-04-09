@@ -18,7 +18,7 @@ export default function Navbar(){
       }
 
     return(
-        <div className="flex flex-col   w-full h-screen bg-gray-100 dark:bg-gray-900">
+        <div className="flex flex-col   w-full h-full	 bg-gray-100 dark:bg-gray-900">
     <Disclosure as="nav" className="bg-gray-800">
       {({ open }) => (
         <>
@@ -109,7 +109,7 @@ export default function Navbar(){
                       <span className="sr-only">Open user menu</span>
                       <img
                         className="h-8 w-8 rounded-full"
-                        src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                        src="https://avatars.githubusercontent.com/u/68943818?v=4"
                         alt=""
                       />
                     </Menu.Button>
@@ -183,7 +183,7 @@ Resume
     </Disclosure>
 
 
-    <div className=" max-w-7xl px-4  py-6 sm:px-6 lg:px-8 flex  flex-wrap">
+    <div className=" max-w-7xl h-auto px-4  py-6 sm:px-6 lg:px-8 flex  flex-wrap">
       <div className="rounded-full flex-1h-250 w-250 ">
       <img  src="https://avatars.githubusercontent.com/u/68943818?v=4" className="rounded-full flex-1 h-150 w-150 p-20"  alt="Aadil Hassan" />
 
@@ -191,10 +191,64 @@ Resume
       <h1 className="text-3xl font-bold tracking-tight p-20 mt-20 flex-1 text-white-900">Hello 👋 I am Aadil Hassan, a skilled software engineer currently working at Blackcoffer Pvt Ltd. With a passion for coding and technology, I specialize in virtual machines, Node.js, REST APIs, Linux, and open-source tools.
 
 </h1>   </div>
-  <main>
-    <div className="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
+ 
+<div className=' flex bg-dark w-full items-center mt-6 justify-center'>
+<button className="   inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
+  <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+My Skills
+  </span>
+</button>
+</div>
+
+{/* <div className="container mx-auto bg-dark flex flex-wrap"> */}
+
+<div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-24">
+  <div className="-m-1 flex flex-wrap md:-m-2">
+    <div className="flex w-1/2 flex-wrap">
+      <div className="w-1/2 p-1 md:p-2">
+        <img
+          alt="gallery"
+          className="block h-full w-full rounded-lg object-cover object-center"
+          src="https://cdn.pixabay.com/photo/2017/01/22/22/11/cloud-computing-2001090_960_720.jpg" />
+      </div>
+      <div className="w-1/2 p-1 md:p-2">
+        <img
+          alt="gallery"
+          className="block h-full w-full rounded-lg object-cover object-center"
+          src="https://miro.medium.com/v2/resize:fit:828/format:webp/0*m1VOQP0FtcQufLgw.png" />
+      </div>
+      <div className="w-full p-1 md:p-2">
+        <img
+          alt="gallery"
+          className="block h-full w-full rounded-lg object-cover object-center"
+          src="https://images.hdqwalls.com/wallpapers/tux-linux-dark-4k-5y.jpg" />
+      </div>
     </div>
-  </main>
+    <div className="flex w-1/2 flex-wrap">
+      <div className="w-full p-1 md:p-2">
+        <img
+          alt="gallery"
+          className="block h-full w-full rounded-lg object-cover object-center"
+          src="https://wallpaperaccess.com/full/3909230.png" />
+      </div>
+      <div className="w-1/2 p-1 md:p-2">
+        <img
+          alt="gallery"
+          className="block h-full w-full rounded-lg object-cover object-center"
+          src="https://wallpaperaccess.com/full/3909236.png" />
+      </div>
+      <div className="w-1/2 p-1 md:p-2">
+        <img
+          alt="gallery"
+          className="block h-full w-full rounded-lg object-cover object-center"
+          src="https://cms.lamzing.com/uploads/react_logo_3x_4f46ce3352.svg" />
+      </div>
+    </div>
+  </div>
+{/* </div> */}
+
+
+</div>
 
 
             </div>
